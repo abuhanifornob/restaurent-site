@@ -1,0 +1,390 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #181818;
+}
+
+.container {
+    max-width: 90%;
+    margin: auto;
+}
+
+
+/* Header Section  Start...........*/
+
+header {
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+.logo img {
+    border-radius: 50%;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    line-height: 50px;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    transition: 1s;
+    text-transform: uppercase;
+}
+
+nav ul li {
+    transition: 1s;
+}
+
+nav ul li:hover {
+    background-color: grey;
+    border-radius: 20px;
+}
+
+
+/* Header Section  end...........*/
+
+
+/* Banner Section Start Hear..............*/
+
+#banner-section {
+    background-image: url("images/restaurent.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-contents {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.banner-contents>h1 {
+    width: 100%;
+    background-color: rgba(46, 88, 88, 0.8);
+    margin: 20px auto;
+    color: wheat;
+    text-transform: uppercase;
+    padding: 15px;
+    font-size: 50px;
+    border-radius: 10px;
+}
+
+.banner-contents>p {
+    width: 100%;
+    background-color: rgba(10, 20, 10, 0.7);
+    margin: 20px auto;
+    color: wheat;
+    padding: 15px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.banner-contents>.btn {
+    background-color: rgba(34, 139, 34, 0.6);
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    transition: 0.5s;
+}
+
+.banner-contents>.btn:hover {
+    transform: scale(1.3);
+    background-color: rgba(34, 139, 34, 0.8);
+}
+
+
+/* Banner Section End Hear..............*/
+
+
+/* About Section Start Hear...............*/
+
+.about-section {
+    padding: 10px;
+    text-align: center;
+    background-color: darkslategrey;
+}
+
+.about-section h1 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.about-section p {
+    margin: 25px auto;
+    line-height: 27px;
+}
+
+
+/* About Section End Hear...............*/
+
+
+/*Card Section Start Hear..............*/
+
+.card-body {
+    background-color: rgba(46, 88, 88, 0.8);
+    padding: 20px;
+    text-align: center;
+    transition: 1s;
+}
+
+.card-body:hover {
+    transform: scale(1.1);
+    border-radius: 20px;
+    background-color: darkslategray;
+}
+
+.card-body img {
+    width: 100%;
+    text-align: center;
+    display: block;
+    height: 300px;
+}
+
+.menu-name>h1 {
+    background-color: rgba(0, 128, 0, 0.8);
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.menu-discrip {
+    background-color: darkslategray;
+    line-height: 40px;
+    font-size: 30px;
+}
+
+
+/*Card Section end Hear..............*/
+
+
+/*Contact Section Start Hears .......*/
+
+#contact {
+    background-color: rgb(2, 29, 29);
+    text-align: center;
+    padding: 5%;
+}
+
+.map {
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-details {
+    margin-top: 50px;
+    color: wheat;
+    line-height: 27px;
+    padding: 5px;
+}
+
+
+/*Contact Section End Hears .......*/
+
+
+/* Footer Section Start hear  */
+
+footer {
+    background-color: black;
+    color: wheat;
+    text-align: center;
+}
+
+.copy-right {
+    padding: 50px;
+}
+
+.copy-right>p {
+    font-size: 18px;
+}
+
+.social-icon {
+    font-size: 50px;
+    color: wheat;
+}
+
+.icon-style {
+    padding: 50px 15px;
+}
+
+
+/* Footer Section end hear  */
+
+.row {
+    width: 100%;
+}
+
+.row::after {
+    content: " ";
+    clear: both;
+    display: block;
+}
+
+[class*='col-'] {
+    width: 100%;
+}
+
+[class*='col-'] {
+    float: left;
+}
+
+
+/* Small devices (portrait tablets and large phones, 576px and up) */
+
+@media (min-width:576px) {
+    .col-s-1 {
+        width: 8.33%;
+    }
+    .col-s-2 {
+        width: 16.66%;
+    }
+    .col-s-3 {
+        width: 25%;
+    }
+    .col-s-4 {
+        width: 33.33%;
+    }
+    .col-s-5 {
+        width: 41.66%;
+    }
+    .col-s-6 {
+        width: 50%;
+    }
+    .col-s-7 {
+        width: 58.33%;
+    }
+    .col-s-8 {
+        width: 66.66%;
+    }
+    .col-s-9 {
+        width: 75%;
+    }
+    .col-s-10 {
+        width: 83.33%;
+    }
+    .col-s-11 {
+        width: 91.66%;
+    }
+    .col-s-12 {
+        width: 100%;
+    }
+}
+
+
+/* Mediam devices (portrait tablets and large phones, 768px and up) */
+
+@media (min-width: 768px) {
+    .col-m-1 {
+        width: 8.33%;
+    }
+    .col-m-2 {
+        width: 16.66%;
+    }
+    .col-m-3 {
+        width: 25%;
+    }
+    .col-m-4 {
+        width: 33.33%;
+    }
+    .col-m-5 {
+        width: 41.66%;
+    }
+    .col-m-6 {
+        width: 50%;
+    }
+    .col-m-7 {
+        width: 58.33%;
+    }
+    .col-m-8 {
+        width: 66.66%;
+    }
+    .col-m-9 {
+        width: 75%;
+    }
+    .col-m-10 {
+        width: 83.33%;
+    }
+    .col-m-11 {
+        width: 91.66%;
+    }
+    .col-m-12 {
+        width: 100%;
+    }
+}
+
+
+/* Large devices (portrait tablets and large phones, 992px and up) */
+
+@media (min-width: 992px) {
+    .logo {
+        text-align: left;
+        padding: -inherit;
+    }
+    nav>ul {
+        text-align: right;
+    }
+    nav>ul>li {
+        display: inline-block;
+        padding: 0 15px;
+    }
+    nav>ul>li>a:hover {
+        transform: scale(1.1);
+    }
+    .col-l-1 {
+        width: 8.33%;
+    }
+    .col-l-2 {
+        width: 16.66%;
+    }
+    .col-l-3 {
+        width: 25%;
+    }
+    .col-l-4 {
+        width: 33.33%;
+    }
+    .col-l-5 {
+        width: 41.66%;
+    }
+    .col-l-6 {
+        width: 50%;
+    }
+    .col-l-7 {
+        width: 58.33%;
+    }
+    .col-l-8 {
+        width: 66.66%;
+    }
+    .col-l-9 {
+        width: 75%;
+    }
+    .col-l-10 {
+        width: 83.33%;
+    }
+    .col-l-11 {
+        width: 91.66%;
+    }
+    .col-l-12 {
+        width: 100%;
+    }
+}
